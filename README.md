@@ -8,6 +8,9 @@ Evaluate ratings data for food hygiene
 
 ## Installation
 NoSql, Mongo
+Import the dataset with:
+
+mongoimport --type json -d uk_food -c establishments --jsonArray establishments.json
 
 ## Usage
 query script
